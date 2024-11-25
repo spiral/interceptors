@@ -48,7 +48,7 @@ interface TargetInterface extends Stringable
      *
      * If the object is present, it always corresponds to the method reflection from {@see getReflection()}.
      *
-     * @return TController
+     * @return TController|null
      */
     public function getObject(): ?object;
 
